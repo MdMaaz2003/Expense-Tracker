@@ -71,7 +71,12 @@ export default function Page() {
           </p>
         </div>
 
-        <SignIn path="/sign-in" />
+        <SignIn
+              path="/sign-in"
+              routing="path"
+              signUpUrl="/sign-up"
+              forceRedirectUrl="/dashboard"
+            />
       </div>
     </main>
   </div>
